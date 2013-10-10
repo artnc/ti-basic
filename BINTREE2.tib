@@ -1,0 +1,53 @@
+:
+Input "S:",S
+Input "K:",K
+Input "SIGMA:",O
+Input "R:",R
+Input "DELTA:",L
+Input "T:",T
+ClrHome
+T/2->H
+e^H(R-L)+O[root]^2H->U
+e^H(R-L)-O[root]^2H->D
+e^H(R-L->P
+Disp "U
+Disp U
+Disp "D
+Disp D
+Disp "US
+Disp US
+ClrHome
+Pause
+Disp "DS
+Disp DS
+Disp "UUS
+Disp UUS
+Disp "UDS=DUS
+Disp UDS
+ClrHome
+Pause
+Disp "DDS
+Disp DDS
+max(0,UUS-K->A
+max(0,UDS-K->B
+max(0,DDS-K->C
+e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->E
+e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->F
+e^[neg]RH)(E((P-D)/(U-D))+F((U-P)/(U-D->G
+Disp "C
+Disp G
+ClrHome
+Pause
+Disp "Cu"
+Disp E
+Disp "Cd"
+Disp F
+Disp "Cuu"
+Disp A
+ClrHome
+Pause
+Disp "Cud"
+Disp B
+Disp "Cdd"
+Disp C
+"
