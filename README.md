@@ -9,5 +9,4 @@ Unfortunately TI-Basic Compiler is slightly buggy, sometimes mangling the last f
 
 ### Finance
 
-- BINTREE2: Two-period binomial tree pricing for puts and calls, both American and European.
-- BSCHOLES: Black-Scholes formula.
+- BINTREE2: Two-period binomial tree pricing for European puts and calls.

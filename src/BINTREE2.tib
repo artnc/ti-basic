@@ -16,18 +16,19 @@ Disp "D
 Disp D
 Disp "US
 Disp US
-ClrHome
 Pause
+ClrHome
 Disp "DS
 Disp DS
 Disp "UUS
 Disp UUS
 Disp "UDS=DUS
 Disp UDS
-ClrHome
 Pause
+ClrHome
 Disp "DDS
 Disp DDS
+"AMERICAN CALLS
 max(0,UUS-K->A
 max(0,UDS-K->B
 max(0,DDS-K->C
@@ -36,18 +37,41 @@ e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->F
 e^[neg]RH)(E((P-D)/(U-D))+F((U-P)/(U-D->G
 Disp "C
 Disp G
-ClrHome
 Pause
+ClrHome
 Disp "Cu"
 Disp E
 Disp "Cd"
 Disp F
 Disp "Cuu"
 Disp A
-ClrHome
 Pause
+ClrHome
 Disp "Cud"
 Disp B
 Disp "Cdd"
+Disp C
+"AMERICAN PUTS
+max(0,K-UUS->A
+max(0,K-UDS->B
+max(0,K-DDS->C
+e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->E
+e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->F
+e^[neg]RH)(E((P-D)/(U-D))+F((U-P)/(U-D->G
+Disp "P
+Disp G
+Pause
+ClrHome
+Disp "Pu"
+Disp E
+Disp "Pd"
+Disp F
+Disp "Puu"
+Disp A
+Pause
+ClrHome
+Disp "Pud"
+Disp B
+Disp "Pdd"
 Disp C
 "
