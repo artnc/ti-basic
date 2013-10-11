@@ -1,0 +1,193 @@
+:
+Input "S:",S
+Input "K:",K
+Input "SIGMA:",O
+Input "R:",R
+Input "DELTA:",L
+Input "T:",T
+T/2->H
+e^H(R-L)+O[root]^2H->U
+e^H(R-L)-O[root]^2H->D
+e^H(R-L->P
+ClrHome
+Disp "u=
+Disp U
+Disp "d=
+Disp D
+Pause
+ClrHome
+Disp "uS=
+Disp US
+Disp "dS=
+Disp DS
+Disp "uuS=
+Disp UUS
+Pause
+ClrHome
+Disp "udS=duS=
+Disp UDS
+Disp "ddS=
+Disp DDS
+Disp "uuuS=
+Disp UUUS
+Pause
+ClrHome
+Disp "uudS=
+Disp UUDS
+Disp "uddS=
+Disp UDDS
+Disp "dddS=
+Disp DDDS
+max(0,UUUS-K->A
+max(0,UUDS-K->B
+max(0,UDDS-K->C
+max(0,DDDS-K->E
+e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->F
+e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->G
+e^[neg]RH)(C((P-D)/(U-D))+E((U-P)/(U-D->J
+e^[neg]RH)(F((P-D)/(U-D))+G((U-P)/(U-D->M
+e^[neg]RH)(G((P-D)/(U-D))+J((U-P)/(U-D->N
+e^[neg]RH)(M((P-D)/(U-D))+N((U-P)/(U-D->Q
+Pause
+ClrHome
+Disp "Euro C
+Disp Q
+Disp "Euro Cu=
+Disp M
+Disp "Euro Cd=
+Disp N
+Pause
+ClrHome
+Disp "Euro Cuu=
+Disp F
+Disp "Euro Cud=
+Disp G
+Disp "Euro Cdd=
+Disp J
+Pause
+ClrHome
+Disp "Euro Cuuu=
+Disp A
+Disp "Euro Cuud=
+Disp B
+Disp "Euro Cudd=
+Disp C
+Pause
+ClrHome
+Disp "Euro Cddd=
+Disp E
+max(0,K-UUUS->A
+max(0,K-UUDS->B
+max(0,K-UDDS->C
+max(0,K-DDDS->E
+e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->F
+e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->G
+e^[neg]RH)(C((P-D)/(U-D))+E((U-P)/(U-D->J
+e^[neg]RH)(F((P-D)/(U-D))+G((U-P)/(U-D->M
+e^[neg]RH)(G((P-D)/(U-D))+J((U-P)/(U-D->N
+e^[neg]RH)(M((P-D)/(U-D))+N((U-P)/(U-D->Q
+Pause
+ClrHome
+Disp "Euro P
+Disp Q
+Disp "Euro Pu=
+Disp M
+Disp "Euro Pd=
+Disp N
+Pause
+ClrHome
+Disp "Euro Puu=
+Disp F
+Disp "Euro Pud=
+Disp G
+Disp "Euro Pdd=
+Disp J
+Pause
+ClrHome
+Disp "Euro Puuu=
+Disp A
+Disp "Euro Puud=
+Disp B
+Disp "Euro Pudd=
+Disp C
+Pause
+ClrHome
+Disp "Euro Pddd=
+Disp E
+max(0,UUUS-K->A
+max(0,UUDS-K->B
+max(0,UDDS-K->C
+max(0,DDDS-K->E
+max(UUS-K,e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->F
+max(UDS-K,e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->G
+max(DDS-K,e^[neg]RH)(C((P-D)/(U-D))+E((U-P)/(U-D->J
+max(US-K,e^[neg]RH)(F((P-D)/(U-D))+G((U-P)/(U-D->M
+max(DS-K,e^[neg]RH)(G((P-D)/(U-D))+J((U-P)/(U-D->N
+max(S-K,e^[neg]RH)(M((P-D)/(U-D))+N((U-P)/(U-D->Q
+Pause
+ClrHome
+Disp "Amer C
+Disp Q
+Disp "Amer Cu=
+Disp M
+Disp "Amer Cd=
+Disp N
+Pause
+ClrHome
+Disp "Amer Cuu=
+Disp F
+Disp "Amer Cud=
+Disp G
+Disp "Amer Cdd=
+Disp J
+Pause
+ClrHome
+Disp "Amer Cuuu=
+Disp A
+Disp "Amer Cuud=
+Disp B
+Disp "Amer Cudd=
+Disp C
+Pause
+ClrHome
+Disp "Amer Cddd=
+Disp E
+max(0,K-UUUS->A
+max(0,K-UUDS->B
+max(0,K-UDDS->C
+max(0,K-DDDS->E
+max(K-UUS,e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->F
+max(K-UDS,e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->G
+max(K-DDS,e^[neg]RH)(C((P-D)/(U-D))+E((U-P)/(U-D->J
+max(K-US,e^[neg]RH)(F((P-D)/(U-D))+G((U-P)/(U-D->M
+max(K-DS,e^[neg]RH)(G((P-D)/(U-D))+J((U-P)/(U-D->N
+max(K-S,e^[neg]RH)(M((P-D)/(U-D))+N((U-P)/(U-D->Q
+Pause
+ClrHome
+Disp "Amer P
+Disp Q
+Disp "Amer Pu=
+Disp M
+Disp "Amer Pd=
+Disp N
+Pause
+ClrHome
+Disp "Amer Puu=
+Disp F
+Disp "Amer Pud=
+Disp G
+Disp "Amer Pdd=
+Disp J
+Pause
+ClrHome
+Disp "Amer Puuu=
+Disp A
+Disp "Amer Puud=
+Disp B
+Disp "Amer Pudd=
+Disp C
+Pause
+ClrHome
+Disp "Amer Pddd=
+Disp E
+"
