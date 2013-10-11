@@ -1,0 +1,143 @@
+:
+ClrDraw
+PlotsOff
+FnOff
+AxesOff
+ClrHome
+Disp "BLACKJACK 1.0","BY ART CHAIDARUN
+Pause"5/9/08
+ClrHome
+ClrDraw
+Input "PLAYER'S NAME?  ",STR1
+Menu("PICK A LEVEL","EASY",31,"EASIER",32,"PATHETIC",33
+Label 31
+13->V
+Goto 7
+Label 32
+12->V
+Goto 7
+Label 33
+11->V
+Goto 7
+Label 7
+(2V-16)^2->M
+ClrHome
+Disp "MONEY:
+PauseM
+Label 8
+ClrHome
+DelVar ADelVar RDelVar TDelVar GWhile G<V
+G+RandInt(2,10->G
+End
+Input "BET:",B
+abs(int(B)->B
+If B>M
+Then
+M->B:Disp "TOO HIGH, BET:":PauseB
+End
+DelVar DClrHome
+Label 4
+R+1->R:Menu(STR1,"HIT",1,"STAND",2,"DOUBLE DOWN",3,"EXIT",0
+Label 1
+RandInt(1,13->C
+If C=1
+Then
+A+1->A
+Pause"               A"
+End
+If C=11
+Then
+Pause"               J"
+End
+If C=12
+Then
+Pause"               Q"
+End
+If C=13
+Then
+Pause"               K"
+End
+If C<=10&C!=1
+Then
+PauseC
+End
+If C>10
+Then
+10->C
+End
+If C=1
+Then
+11->C
+End
+C+T->T
+If D=1
+Then
+Disp "YOUR NEW BET IS:":PauseB:Goto 2
+End
+If T<21
+Then
+Goto 4
+End
+If T>21&A>0
+Then
+A-1->A
+T-10->T
+Text(28,6,"THE ACE'S VALUE  IS NOW 1."
+Pause
+ClrDraw
+Goto 4
+Else
+Goto 2
+End
+Label 3
+1->D:2*B->B:Goto 1
+Label 2
+Disp "YOU GOT":If A!=0&T>21:Then:Disp T-10:Else:Disp T:End
+Disp "CALC GOT":PauseG
+If (T<21&(T>G~G>21))~(T=21&G!=21&R>2
+Then
+M+B->M:Pause"YOU WIN. TOTAL:"
+End
+If T=21&G!=21&R=2
+Then
+M+3B/2->M:Pause"BLACKJACK! TOTAL"
+End
+If T<=21&T=G
+Then
+Pause"PUSH. TOTAL:"
+End
+If T>21&A=0
+Then
+M-B->M:Pause"BUST. TOTAL:"
+End
+If T<G&G<=21
+Then
+M-B->M:Pause"YOU LOSE. TOTAL:"
+End
+PauseM
+0->A
+Label 9
+If M<=0
+Then
+Text(29,13,"BANKRUPT. GAME OVER."
+Pause
+Menu("NEW GAME?","SAME PLAYER",7,"NEW PLAYER",15,"EXIT",0
+End
+Menu("KEEP PLAYING?","YES",8,"NO",0,"HIGH SCORE",10
+Label 15
+prgmBLKJKB1
+Label 10
+ClrHome
+Disp STR0
+Pause[theta]
+ClrHome
+Goto 9
+Label 0
+ClrHome
+If M>[theta]
+Then
+Disp "NEW HIGH SCORE!":M->[theta]:STR1->STR0:Pause[theta]
+End
+ClrHome:ClrDraw:AxesOn
+FnOn
+"

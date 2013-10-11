@@ -11,3 +11,8 @@ Unfortunately TI-Basic Compiler is slightly buggy, sometimes mangling the last f
 
 - BINTREE2: Two-period binomial tree pricing for European/American puts/calls.
 - BSCHOLES: Black-Scholes formula.
+
+### Games
+
+- BLKJACK: Also known as 21.
+- SIMON: The classic memory game.
