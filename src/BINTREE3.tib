@@ -9,6 +9,9 @@ T/2->H
 e^H(R-L)+O[root]^2H->U
 e^H(R-L)-O[root]^2H->D
 e^H(R-L->P
+e^[neg]RH->X
+(P-D)/(U-D->Y
+(U-P)/(U-D->Z
 ClrHome
 Disp "u=
 Disp U
@@ -42,12 +45,12 @@ max(0,UUUS-K->A
 max(0,UUDS-K->B
 max(0,UDDS-K->C
 max(0,DDDS-K->E
-e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->F
-e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->G
-e^[neg]RH)(C((P-D)/(U-D))+E((U-P)/(U-D->J
-e^[neg]RH)(F((P-D)/(U-D))+G((U-P)/(U-D->M
-e^[neg]RH)(G((P-D)/(U-D))+J((U-P)/(U-D->N
-e^[neg]RH)(M((P-D)/(U-D))+N((U-P)/(U-D->Q
+X(AY+BZ->F
+X(BY+CZ->G
+X(CY+EZ->J
+X(FY+GZ->M
+X(GY+JZ->N
+X(MY+NZ->Q
 Pause
 ClrHome
 Disp "Euro C
@@ -80,12 +83,12 @@ max(0,K-UUUS->A
 max(0,K-UUDS->B
 max(0,K-UDDS->C
 max(0,K-DDDS->E
-e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->F
-e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->G
-e^[neg]RH)(C((P-D)/(U-D))+E((U-P)/(U-D->J
-e^[neg]RH)(F((P-D)/(U-D))+G((U-P)/(U-D->M
-e^[neg]RH)(G((P-D)/(U-D))+J((U-P)/(U-D->N
-e^[neg]RH)(M((P-D)/(U-D))+N((U-P)/(U-D->Q
+X(AY+BZ->F
+X(BY+CZ->G
+X(CY+EZ->J
+X(FY+GZ->M
+X(GY+JZ->N
+X(MY+NZ->Q
 Pause
 ClrHome
 Disp "Euro P
@@ -118,12 +121,12 @@ max(0,UUUS-K->A
 max(0,UUDS-K->B
 max(0,UDDS-K->C
 max(0,DDDS-K->E
-max(UUS-K,e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->F
-max(UDS-K,e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->G
-max(DDS-K,e^[neg]RH)(C((P-D)/(U-D))+E((U-P)/(U-D->J
-max(US-K,e^[neg]RH)(F((P-D)/(U-D))+G((U-P)/(U-D->M
-max(DS-K,e^[neg]RH)(G((P-D)/(U-D))+J((U-P)/(U-D->N
-max(S-K,e^[neg]RH)(M((P-D)/(U-D))+N((U-P)/(U-D->Q
+max(UUS-K,X(AY+BZ->F
+max(UDS-K,X(BY+CZ->G
+max(DDS-K,X(CY+EZ->J
+max(US-K,X(FY+GZ->M
+max(DS-K,X(GY+JZ->N
+max(S-K,X(MY+NZ->Q
 Pause
 ClrHome
 Disp "Amer C
@@ -156,12 +159,12 @@ max(0,K-UUUS->A
 max(0,K-UUDS->B
 max(0,K-UDDS->C
 max(0,K-DDDS->E
-max(K-UUS,e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->F
-max(K-UDS,e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->G
-max(K-DDS,e^[neg]RH)(C((P-D)/(U-D))+E((U-P)/(U-D->J
-max(K-US,e^[neg]RH)(F((P-D)/(U-D))+G((U-P)/(U-D->M
-max(K-DS,e^[neg]RH)(G((P-D)/(U-D))+J((U-P)/(U-D->N
-max(K-S,e^[neg]RH)(M((P-D)/(U-D))+N((U-P)/(U-D->Q
+max(K-UUS,X(AY+BZ->F
+max(K-UDS,X(BY+CZ->G
+max(K-DDS,X(CY+EZ->J
+max(K-US,X(FY+GZ->M
+max(K-DS,X(GY+JZ->N
+max(K-S,X(MY+NZ->Q
 Pause
 ClrHome
 Disp "Amer P
