@@ -3,8 +3,8 @@ Input "S:",S
 Input "K:",K
 Input "SIGMA:",O
 Input "R:",R
-Input "DELTA:",L
 Input "T:",T
+Input "DELTA:",L
 T/3->H
 e^H(R-L)+O[root]^2H->U
 e^H(R-L)-O[root]^2H->D

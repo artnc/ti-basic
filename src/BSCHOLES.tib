@@ -3,16 +3,21 @@ Input "S:",S
 Input "K:",K
 Input "SIGMA:",O
 Input "R:",R
-Input "DELTA:",L
 Input "T:",T
+Input "DELTA:",L
 (ln(S/K)+T(R-L+O^2/2))/(O[root]^2T->A
 A-O[root]^2T->B
-S(e^[neg]LT))normalcdf([neg]10^(3),A)-K(e^[neg]RT))normalcdf([neg]10^(3),B->C
 ClrHome
 Disp "D1="
 Disp A
 Disp "D2="
 Disp B
+S(e^[neg]LT))normalcdf([neg]10^(3),A)-K(e^[neg]RT))normalcdf([neg]10^(3),B->C
+K(e^[neg]RT))normalcdf([neg]10^(3),[neg]B)-S(e^[neg]LT))normalcdf([neg]10^(3),[neg]A->P
+Pause
+ClrHome
 Disp "C="
 Disp C
+Disp "P="
+Disp P
 "
