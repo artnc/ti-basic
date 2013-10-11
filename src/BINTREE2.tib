@@ -5,73 +5,115 @@ Input "SIGMA:",O
 Input "R:",R
 Input "DELTA:",L
 Input "T:",T
-ClrHome
 T/2->H
 e^H(R-L)+O[root]^2H->U
 e^H(R-L)-O[root]^2H->D
 e^H(R-L->P
-Disp "U
+ClrHome
+Disp "u=
 Disp U
-Disp "D
+Disp "d=
 Disp D
-Disp "US
+Pause
+ClrHome
+Disp "uS=
 Disp US
-Pause
-ClrHome
-Disp "DS
+Disp "dS=
 Disp DS
-Disp "UUS
-Disp UUS
-Disp "UDS=DUS
-Disp UDS
 Pause
 ClrHome
-Disp "DDS
+Disp "uuS=
+Disp UUS
+Disp "udS=duS=
+Disp UDS
+Disp "ddS=
 Disp DDS
-"AMERICAN CALLS
 max(0,UUS-K->A
 max(0,UDS-K->B
 max(0,DDS-K->C
 e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->E
 e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->F
 e^[neg]RH)(E((P-D)/(U-D))+F((U-P)/(U-D->G
-Disp "C
+Pause
+ClrHome
+Disp "Euro C
 Disp G
-Pause
-ClrHome
-Disp "Cu"
+Disp "Euro Cu=
 Disp E
-Disp "Cd"
+Disp "Euro Cd=
 Disp F
-Disp "Cuu"
-Disp A
 Pause
 ClrHome
-Disp "Cud"
+Disp "Euro Cuu=
+Disp A
+Disp "Euro Cud=
 Disp B
-Disp "Cdd"
+Disp "Euro Cdd=
 Disp C
-"AMERICAN PUTS
 max(0,K-UUS->A
 max(0,K-UDS->B
 max(0,K-DDS->C
 e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->E
 e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->F
 e^[neg]RH)(E((P-D)/(U-D))+F((U-P)/(U-D->G
-Disp "P
+Pause
+ClrHome
+Disp "Euro P
 Disp G
-Pause
-ClrHome
-Disp "Pu"
+Disp "Euro Pu=
 Disp E
-Disp "Pd"
+Disp "Euro Pd=
 Disp F
-Disp "Puu"
-Disp A
 Pause
 ClrHome
-Disp "Pud"
+Disp "Euro Puu=
+Disp A
+Disp "Euro Pud=
 Disp B
-Disp "Pdd"
+Disp "Euro Pdd=
+Disp C
+max(0,UUS-K->A
+max(0,UDS-K->B
+max(0,DDS-K->C
+max(US-K,e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->E
+max(DS-K,e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->F
+max(S-K,e^[neg]RH)(E((P-D)/(U-D))+F((U-P)/(U-D->G
+Pause
+ClrHome
+Disp "Amer C
+Disp G
+Disp "Amer Cu=
+Disp E
+Disp "Amer Cd=
+Disp F
+Pause
+ClrHome
+Disp "Amer Cuu=
+Disp A
+Disp "Amer Cud=
+Disp B
+Disp "Amer Cdd=
+Disp C
+max(0,K-UUS->A
+max(0,K-UDS->B
+max(0,K-DDS->C
+max(K-US,e^[neg]RH)(A((P-D)/(U-D))+B((U-P)/(U-D->E
+max(K-DS,e^[neg]RH)(B((P-D)/(U-D))+C((U-P)/(U-D->F
+max(K-S,e^[neg]RH)(E((P-D)/(U-D))+F((U-P)/(U-D->G
+Pause
+ClrHome
+Disp "Amer P
+Disp G
+Disp "Amer Pu=
+Disp E
+Disp "Amer Pd=
+Disp F
+Pause
+ClrHome
+Disp "Amer Puu=
+Disp A
+Disp "Amer Pud=
+Disp B
+Disp "Amer Pdd=
 Disp C
 "
