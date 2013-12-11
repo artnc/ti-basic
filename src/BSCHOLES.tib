@@ -19,5 +19,5 @@ ClrHome
 Disp "C="
 Disp C
 Disp "P="
-Disp P
+Pause P
 "
